@@ -34,7 +34,8 @@ def prompt_func(data):
                 },
                 {
                     'type': 'media',
-                    'media': f"data:application/pdf;base64,{pdf}"
+                    'mime_type': "application/pdf",
+                    'data': pdf
                 },
             ]
         )
